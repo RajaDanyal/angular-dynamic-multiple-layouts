@@ -38,7 +38,7 @@ We have defined  the  main route **'/home'**, which is the default landing page 
 Then we have defined  a parent route which is empty, which means any call after the **/** will match this route.
 Each parent route is using layout components . We have **layout with header  and a layout with footer**.
 The first empty route loads the layout with header , and that will be  rendered in the default router outlet of the application , which is in app component. Now  we have two child components, 'dashboard' and 'list'. When we hit route '/dashboard', the **first empty parent route will be matched** and it will render layout with header in the default router outlet. When it will drop down in the tree,'/dashboard' route will be matches and  it will be rendered in the router outlet of the layout with header.
-Similarly when the route '/list' will be hit , it will be **rendered in the router out of its parent ** , which is layout with header.
+Similarly when the route '/list' will be hit , it will be **rendered in the router out of its parent** , which is layout with header.
 
 Lyout with header will **NOT** be rendered again with each call because angular checks if its a component is alrady rendered in the DOM, it does not load it agin. So this way layout with header will be loaded just once and the child routes will be rendered inside the layout.
 
