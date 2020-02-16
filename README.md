@@ -42,7 +42,7 @@ Similarly when the route '/list' will be hit , it will be **rendered in the rout
 
 Lyout with header will **NOT** be rendered again with each call because angular checks if its a component is alrady rendered in the DOM, it does not load it agin. So this way layout with header will be loaded just once and the child routes will be rendered inside the layout.
 
-Similarly we can define  as many layouts as we want as parent routes , and each component which we want to use that  layout, will be the child routes of that given parent layour route.
+Similarly we can define  as many layouts as we want as parent routes , and each component which we want to use that  layout, will be the child routes of that given parent layout route.
 
 ## Conclusion
 
