@@ -1,4 +1,4 @@
-# Angular MultiLayout
+# Angular Dynamic Multiple Layouts
 
 ## Development server
 
